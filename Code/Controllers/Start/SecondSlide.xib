@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="LexendPeta-Medium.ttf">
+            <string>LexendPeta-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="3yM-K2-Qmp">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6fC-Ii-K3T">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQ6-Vj-ymJ">
+                    <rect key="frame" x="57" y="532" width="300" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="JU5-Bg-sXc"/>
+                        <constraint firstAttribute="width" constant="300" id="Uf4-07-PjP"/>
+                    </constraints>
+                    <string key="text">DISCOVER PLANET DISTANCE
+FROM THE SUN</string>
+                    <fontDescription key="fontDescription" name="LexendPeta-Medium" family="Lexend Peta" pointSize="14"/>
+                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="MQ6-Vj-ymJ" secondAttribute="bottom" constant="270" id="2an-vO-beM"/>
+                <constraint firstAttribute="bottom" secondItem="6fC-Ii-K3T" secondAttribute="bottom" id="5p0-bL-NSl"/>
+                <constraint firstItem="6fC-Ii-K3T" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="DL2-xq-yRV"/>
+                <constraint firstItem="3yM-K2-Qmp" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="FNU-WL-67H"/>
+                <constraint firstItem="MQ6-Vj-ymJ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PiE-Fi-O7c"/>
+                <constraint firstItem="3yM-K2-Qmp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ys7-Pl-CQ8"/>
+                <constraint firstAttribute="bottom" secondItem="3yM-K2-Qmp" secondAttribute="bottom" id="aU1-5p-uGb"/>
+                <constraint firstItem="6fC-Ii-K3T" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="r8z-Pm-6jo"/>
+                <constraint firstItem="6fC-Ii-K3T" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="xyf-Dn-qsJ"/>
+                <constraint firstItem="3yM-K2-Qmp" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="yuM-U1-bnk"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="113.83928571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="2" width="828" height="1792"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
