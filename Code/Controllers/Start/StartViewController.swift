@@ -28,14 +28,6 @@ class StartViewController: UIViewController, UIScrollViewDelegate {
         super.viewWillAppear(animated)
         activityIndicatorViewContainer.isHidden = false
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-    }
-    
-//    UIView.animate(withDuration: 0.3, animations: 0.3) {
-//        self.activityIndicatorViewContainer.alpha = 0
-//    }
                    
     @IBAction func didExploreButtonTap(_ sender: UIButton) {
         presentFullScreen(viewController: SolarSystemViewController())
