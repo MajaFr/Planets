@@ -48,27 +48,24 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="7cY-r9-G52">
-                    <rect key="frame" x="51" y="131.5" width="312" height="20"/>
+                    <rect key="frame" x="56.5" y="131.5" width="301" height="30"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ORBITAL PERIOD (SIDERAL)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4E2-SX-akz">
-                            <rect key="frame" x="0.0" y="0.0" width="234" height="20"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ORBITAL PERIOD (SIDERAL)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4E2-SX-akz">
+                            <rect key="frame" x="0.0" y="0.0" width="147" height="30"/>
                             <fontDescription key="fontDescription" name="LexendPeta-Regular" family="Lexend Peta" pointSize="12"/>
                             <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 87 DAYS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7z3-CT-S6x">
-                            <rect key="frame" x="241" y="0.0" width="71" height="20"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 87 DAYS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7z3-CT-S6x">
+                            <rect key="frame" x="154" y="0.0" width="147" height="30"/>
                             <fontDescription key="fontDescription" name="LexendPeta-Bold" family="Lexend Peta" pointSize="12"/>
                             <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="20" id="UH2-mN-huy"/>
-                    </constraints>
                 </stackView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DETAIL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uQS-FP-CZH">
-                    <rect key="frame" x="57" y="561.5" width="300" height="30"/>
+                    <rect key="frame" x="57" y="571.5" width="300" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="AK9-HE-DJd"/>
                         <constraint firstAttribute="width" constant="300" id="mFZ-ju-Z9l"/>
@@ -85,7 +82,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QEJ-nb-6SF">
-                    <rect key="frame" x="20" y="601.5" width="160" height="60"/>
+                    <rect key="frame" x="20" y="611.5" width="160" height="60"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5DT-ad-VMf">
                             <rect key="frame" x="36" y="13.5" width="88" height="33"/>
@@ -123,7 +120,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hVP-qE-Qap">
-                    <rect key="frame" x="234" y="601.5" width="160" height="60"/>
+                    <rect key="frame" x="234" y="611.5" width="160" height="60"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="UnC-ZE-DrM">
                             <rect key="frame" x="40" y="13.5" width="80" height="33"/>
@@ -157,7 +154,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cqy-D1-8nK">
-                    <rect key="frame" x="234" y="671.5" width="160" height="60"/>
+                    <rect key="frame" x="234" y="681.5" width="160" height="60"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="IOB-jY-aam">
                             <rect key="frame" x="45.5" y="13.5" width="69" height="33"/>
@@ -191,7 +188,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Smh-lc-60z">
-                    <rect key="frame" x="20" y="671.5" width="160" height="60"/>
+                    <rect key="frame" x="20" y="681.5" width="160" height="60"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Xij-K1-mus">
                             <rect key="frame" x="42.5" y="13.5" width="75" height="33"/>
@@ -225,7 +222,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="23r-q7-5bH">
-                    <rect key="frame" x="20" y="741.5" width="160" height="60"/>
+                    <rect key="frame" x="20" y="751.5" width="160" height="60"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="osQ-hH-5B5">
                             <rect key="frame" x="43.5" y="13.5" width="73.5" height="33"/>
@@ -259,7 +256,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m1i-x5-g2U">
-                    <rect key="frame" x="234" y="741.5" width="160" height="60"/>
+                    <rect key="frame" x="234" y="751.5" width="160" height="60"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="g1P-jv-anD">
                             <rect key="frame" x="44.5" y="13.5" width="71" height="33"/>
@@ -293,7 +290,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Earth_symbol" translatesAutoresizingMaskIntoConstraints="NO" id="8gT-dc-4d6">
-                    <rect key="frame" x="189.5" y="156.5" width="35" height="35"/>
+                    <rect key="frame" x="189.5" y="166.5" width="35" height="35"/>
                     <color key="tintColor" systemColor="systemGroupedBackgroundColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="35" id="TQy-pW-Vyh"/>
@@ -335,7 +332,9 @@
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="8gT-dc-4d6" firstAttribute="top" secondItem="7cY-r9-G52" secondAttribute="bottom" constant="5" id="1UJ-8V-viD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7cY-r9-G52" secondAttribute="trailing" constant="12" id="1VW-5b-mZG"/>
                 <constraint firstItem="7cY-r9-G52" firstAttribute="top" secondItem="XVv-Yv-g8F" secondAttribute="bottom" constant="20" id="2Sc-hC-LZe"/>
+                <constraint firstItem="7cY-r9-G52" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="2mZ-CU-AKh"/>
                 <constraint firstItem="7cY-r9-G52" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4Iu-n8-Jgu"/>
                 <constraint firstItem="UVI-YL-vai" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="6am-yl-T8Q"/>
                 <constraint firstItem="UVI-YL-vai" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="4" id="7jl-t0-1aW"/>
