@@ -1,24 +1,24 @@
 # Planets
-Aplikacja pokaująca moje umiejętności, spładająca się z 3 ekranów. 
+Application showing my programming skills, consisting of 3 screens. 
 
-## Spis treści
+## Contents
 
-- [Informacje](#Informacje)
+- [Information](#Information)
 - [Api](#Api)
-- [Zdjęcia aplikacji](#Zdjęcia-aplikacji)
+- [Photo App](#Photo App)
 
-## Informacje
+## Information
 - MVC
 - Xib
 - Swift 5
 
 ## Api
-Dane są pobierane za pomocą: 
+Downloading data with: 
 https://api.le-systeme-solaire.net/rest.php/bodies?filter%5B%5D=isPlanet%2Ceq%2Ctrue
 
-Używam Codable i URLSession
+I use Codable and URLSession
 
-Model danych 
+Data Model
 ```json
 {
   "bodies": [
@@ -46,7 +46,7 @@ Model danych
 ```
 
 
-## Zdjęcia aplikacji
+## Photo App
 [<img src="./img/1.png" width="250"/>](./img/1.png)
 [<img src="./img/2.png" width="250"/>](./img/2.png)
 [<img src="./img/3.png" width="250"/>](./img/3.png)
