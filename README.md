@@ -5,7 +5,7 @@ Application showing my programming skills, consisting of 3 screens.
 
 - [Information](#Information)
 - [Api](#Api)
-- [Photo App](#Photo App)
+- [Photo App](#PhotoApp)
 
 ## Information
 - MVC
